@@ -1,0 +1,58 @@
+generate a prompt for the /sp.constiitutent command
+
+on this phases
+
+Phase I
+In-Memory Python Console App
+Python, Claude Code, Spec-Kit Plus
+Phase II
+Full-Stack Web Application
+Next.js, FastAPI, SQLModel, Neon DB
+Phase III
+AI-Powered Todo Chatbot
+OpenAI ChatKit, Agents SDK, Official MCP SDK
+Phase IV
+Local Kubernetes Deployment
+Docker, Minikube, Helm, kubectl-ai, kagent
+Phase V
+Advanced Cloud Deployment
+Kafka, Dapr, DigitalOcean DOKS
+
+and objectives
+
+These form the foundation—quick to build, essential for any MVP:
+Add Task – Create new todo items
+Delete Task – Remove tasks from the list
+Update Task – Modify existing task details
+View Task List – Display all tasks
+Mark as Complete – Toggle task completion status
+
+
+Implement all 5 Basic Level features (Add, Delete, Update, View, Mark Complete)
+Follow clean code principles and proper Python project structure
+
+
+Phase II: Todo Full-Stack Web Application
+
+ transform the console app into a modern multi-user web application with persistent storage
+
+Requirements
+Implement all 5 Basic Level features as a web application
+Create RESTful API endpoints
+Build responsive frontend interface
+Store data in Neon Serverless PostgreSQL database
+Authentication – Implement user signup/signin using Better Auth
+
+
+Phase III: Todo AI Chatbot
+
+Create an AI-powered chatbot interface for managing todos through natural language using MCP (Model Context Protocol)
+
+Implement conversational interface for all Basic Level features
+Use OpenAI Agents SDK for AI logic
+Build MCP server with Official MCP SDK that exposes task operations as tools
+Stateless chat endpoint that persists conversation state to database
+AI agents use MCP tools to manage tasks. The MCP tools will also be stateless and will store state in the database. 
+
+Phase IV: Local Kubernetes Deployment (Minikube, Helm Charts, kubectl-ai, Kagent, Docker Desktop, and Gordon)
+
